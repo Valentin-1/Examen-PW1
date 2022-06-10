@@ -25,4 +25,5 @@ Math.min(...studentList.map(item => item.marks));
 console.log(`Studentul cu nota medie minima ${min.name}`)
 
 let avgSort = averages;
+console.log('Descrescator');
 console.log(avgSort.sort((item, index) => index.avg - item.avg));
